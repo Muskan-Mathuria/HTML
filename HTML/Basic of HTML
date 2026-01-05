@@ -1,0 +1,32 @@
+<!-- Headings -->
+<h2># There are six(6) Types of <mark>"HEADINGS"</mark></h2>
+ <ol>
+    <li>h1(largest heading)</li>
+    <li>h2</li>
+    <li>h3</li>
+    <li>h4</li>
+    <li>h5</li>
+    <li>h6(Smallest Heading)</li>
+ </ol>
+
+ <!-- Pragraph -->
+  <h2>#Paragraph</h2>
+<p>This is a paragraph.(Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Libero numquam odio molestiae aperiam recusandae id eveniet
+     ullam quos totam deleniti., ipsum dolor.)</p> 
+
+<!-- How to add link of any website,image -->
+ <h2>#Link (website,image)</h2>
+ <p>!!To adding a website link to any website or a project we use 
+    <mark>a href tag</mark>.</p>
+    <p>!!For adding a Image to a project of notes of html we use <mark> img src tag</mark>.
+ </p>
+
+ <a href="http://www.google.com">GOOGLE</a>
+ <br>
+ <img src="/html5-logo-vector-free-download-11574222422da5narngo7.png" height="20%">
+
+ <h2>!!<mark>"BR Tag"</mark> is use for staring from a new line.</h2>
+
+
+
