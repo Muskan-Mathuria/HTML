@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .lp{
+        margin-top: 150px;
+        margin-left: 150px;
+        height: 60px;
+        width: 60px;
+        background-image: url(/sunrise.webp);
+        background-position: center;
+        background-size: cover;
+        animation: ho 12s infinite;
+        
+    }
+    @keyframes ho{
+        30%{
+            background-image: url(/sunset.webp);
+        }
+        60%{
+            transform: rotate(-90deg) scale(2.3);
+            box-shadow: 2px -12px 12px rgb(177, 4, 125);
+            border: 2px dotted rgb(0, 12, 15);
+        }
+        80%{
+            background-color: rgb(4, 202, 189);
+            transform: rotate(90deg) scale(3.3);
+            box-shadow: 2px 12px 12px rgb(127, 8, 138);
+        }
+    }
+    .lp:hover{
+        background-color: yellow;
+    }
+
+</style>
+<body>
+    <div class="lp">
+    </div>
+</body>
+</html>
